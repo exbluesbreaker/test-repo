@@ -1,0 +1,5 @@
+cmake_minimum_required(2.8)
+set(${PROJECT_NAME} "test")
+project(${PROJECT_NAME})
+set(${SOURCES} src/main.cpp)
+add_executable(${PROJECT_NAME} ${SOURCES})

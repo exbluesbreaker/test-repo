@@ -3,6 +3,7 @@ message("========")
 set(PROJECT_NAME "test")
 project(${PROJECT_NAME})
 set(SOURCES src/main.cpp)
+
 message("========")
 message("========")
 
